@@ -12,6 +12,9 @@
 # By default the script uses the regtest network, which can mine blocks
 # instantly. If you wish to switch to the main network, simply change the 
 # CHAIN variable below
+# In line 266,267 are the logo folders of the coin you want to create
+# just download it first, change the logo's and put the icons and pixmaps folders in the
+# folder where the script is going to run!
 
 # change the following variables to match your new coin
 COIN_NAME="DRTcoin"
