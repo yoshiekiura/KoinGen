@@ -17,25 +17,25 @@
 # folder where the script is going to run!
 
 # change the following variables to match your new coin
-COIN_NAME="DRTcoin"
-COIN_UNIT="DRT"
+COIN_NAME="Zenbitex"
+COIN_UNIT="ZBX"
 # Name of the new coin github page or location
-NEW_COIN_GIT="dutchpatriot"
-NEW_COIN_WEBSITE="drtcoin.derijdendetempel.com"
+NEW_COIN_GIT="zenbitex"
+NEW_COIN_WEBSITE="zenbitex.com"
 # 42 million coins at total (litecoin total supply is 84000000)
-TOTAL_SUPPLY=144444444
-MAINNET_PORT="54549"
-TESTNET_PORT="54558"
-REGTEST_PORT="36369"
+TOTAL_SUPPLY=20000000
+MAINNET_PORT="66569"
+TESTNET_PORT="66568"
+REGTEST_PORT="66567"
 PHRASE="Dutch anti-Islam lawmaker cancels Prophet Muhammad cartoon contest"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
-PUBKEY_CHAR="66"
+PUBKEY_CHAR="80"
 # number of blocks to wait to be able to spend coinbase UTXO's
 COINBASE_MATURITY=4
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
 CHAIN=""
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-PREMINED_AMOUNT=44444444
+PREMINED_AMOUNT=500000
 BLOCK_REWARD=100
 
 # Change the Subsidy block halving intervan in blocks
@@ -79,7 +79,7 @@ MESS_START_3_REG_TEST="0x4e"
 # Your nodes for the chainparamsseeds.h file
 
 # mainnet nodes
-ADDM1="54.37.67.223"
+ADDM1="192.168.8.101"
 ADDM2="109.88.53.67"
 ADDM3=""
 # Testnet nodes
